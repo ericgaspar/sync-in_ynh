@@ -35,12 +35,12 @@ websocket:
   # redis adapter url
   redis: redis://127.0.0.1:6379
 mail:
-  host: smtp.server.com
-  port: 587
+  host: "localhost"
+  port: 25
   sender: 'Sync-in<notification@sync-in.com>'
   auth:
-    user: user
-    pass: password
+    user: "__APP__"
+    pass: "__MAIL_PWD__"
   # secure: defines if the connection should use SSL (if true) or not (if false)
   secure: false
   # enable logger
